@@ -1,6 +1,7 @@
 import React from "react";
+import {username,city,image} from "../data/user";
 
-function About() {
+  function About() {
   return (
     <div id="about">
       <h2>About Me</h2>
@@ -9,3 +10,4 @@ function About() {
     </div>
   );
 }
+export default About;
